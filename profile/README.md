@@ -33,13 +33,13 @@ Our base DNAs — each one takes care of a single concern. Your project inherits
 
 **npm**
 ```bash
-npm install -g ggjs
+npm install -g ggwsm
 mkdir ~/dev/dna_new
 cd ~/dev/dna_new
-ggjs dna init
-ggjs dna add @ggdna/readme
+ggwsm dna init
+ggwsm dna add @ggdna/readme
 code dna/my-dna.md
-ggjs dna build
+ggwsm dna build
 npm publish
 ```
 
