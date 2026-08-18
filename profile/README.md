@@ -22,12 +22,24 @@ Our base DNAs — each one takes care of a single concern. Your project inherits
 
 | DNA | Category | Description |
 |---|---|---|
-| `dna_readme` | Docs | README structure and templates |
-| `dna_translate` | Docs | Multi-language docs, DE and EN in sync |
-| `dna_blog` | Docs | Blog format, templates, layout |
-| `dna_guides` | Knowledge | Developer and AI guides |
-| `dna_index` | Structure | Index and navigation files |
-| `dna_gg` | Workflow | gg workflow: commit, push, release |
+| [`dna_readme`](https://github.com/ggdna/dna_readme) | Docs | README structure and templates |
+| [`dna_translate`](https://github.com/ggdna/dna_translate) | Docs | Multi-language docs, DE and EN in sync |
+| [`dna_blog`](https://github.com/ggdna/dna_blog) | Docs | Blog format, templates, layout |
+| [`dna_guides`](https://github.com/ggdna/dna_guides) | Knowledge | Developer and AI guides |
+| [`dna_index`](https://github.com/ggdna/dna_index) | Structure | Index and navigation files |
+| [`dna_install`](https://github.com/ggdna/dna_install) | Setup | Install guides for editor, node, Azure and tooling |
+| [`dna_gg`](https://github.com/ggdna/dna_gg) | Workflow | gg workflow: commit, push, release |
+
+Below them sit the foundation layers every project starts from, and the
+engine that instantiates them.
+
+| Repo | Role | Description |
+|---|---|---|
+| [`dna_base`](https://github.com/ggsuite/dna_base) | Foundation | Configs, docs, scripts and agent skills shared by every repo |
+| [`dna_dart`](https://github.com/ggdna/dna_dart) | Foundation | The DNA of all our Dart projects |
+| [`dna-ts`](https://github.com/ggdna/dna-ts) | Foundation | The DNA of all our TypeScript projects |
+| [`helix`](https://github.com/ggdna/helix) | Engine | Resolves the layers and instantiates the DNA |
+| [`helix-js`](https://github.com/ggdna/helix-js) | Engine | Compiles helix to WebAssembly for TypeScript projects |
 
 ## Quickstart
 
@@ -125,4 +137,4 @@ Configuration does not have to be inherited as a whole. Every layer brings its o
 
 🧬 Enjoy your DNA!
 
-MIT · © 2026 ggdna · [github.com/ggdna/dna_base](https://github.com/ggdna/dna_base)
+MIT · © 2026 ggdna · [github.com/ggsuite/dna_base](https://github.com/ggsuite/dna_base)
