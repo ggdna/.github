@@ -49,7 +49,7 @@ npm install -g ggwsm
 mkdir ~/dev/dna_new
 cd ~/dev/dna_new
 ggwsm dna init
-ggwsm dna add @ggdna/readme
+ggwsm dna add @ggdna/dna-readme
 code dna/my-dna.md
 ggwsm dna build
 npm publish
