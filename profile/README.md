@@ -45,7 +45,7 @@ engine that instantiates them.
 
 **npm**
 ```bash
-npm install -g ggwsm
+npm install -g @tssuite/ggwsm
 mkdir ~/dev/dna_new
 cd ~/dev/dna_new
 ggwsm dna init
